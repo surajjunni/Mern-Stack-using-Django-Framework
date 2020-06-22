@@ -1,0 +1,11 @@
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
+ef56gh678990 User-Password := \ef56gh678990\
+	Ruckus-Dpsk=0x00jhfjftjfgdkyusgcilagsdiulgchilusdcgilusgvkjh
