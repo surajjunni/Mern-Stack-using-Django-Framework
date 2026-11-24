@@ -1,4 +1,4 @@
-import XLSX from 'xlsx';
+import * as XLSX from 'xlsx';
 /* generate an array of column objects */
 export const make_cols = refstr => {
 	let o = [], C = XLSX.utils.decode_range(refstr).e.c + 1;
