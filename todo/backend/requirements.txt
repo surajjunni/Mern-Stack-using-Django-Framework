@@ -6,18 +6,26 @@
 #   source env/bin/activate     # macOS/Linux
 #   pip install -r requirements.txt
 #
-# Versions below were recovered from the previously committed env/ virtualenv.
-Django==2.2
-asgiref==3.2.3
-dataclasses==0.6
-django-cors-headers==3.2.0
-django-mongoengine==0.3.3
-django-rest-framework-mongoengine==3.4.0
-django-webpack-loader==0.6.0
-djangorestframework==3.11.0
-djongo==1.2.38
-mongoengine==0.18.2
-pymongo==3.10.0
-pytz==2019.3
-six==1.13.0
-sqlparse==0.2.4
+# Pins upgraded to current secure releases to clear the Dependabot alerts
+# that the previously committed (old) virtualenv was raising.
+Django==6.1.3
+asgiref==3.13.0
+djangorestframework==3.18.3
+django-cors-headers==4.9.0
+django-webpack-loader==3.2.4
+pymongo==4.20.1
+mongoengine==0.29.3
+sqlparse==0.6.1
+pytz==2026.6
+six==1.17.0
+
+# --- MongoDB <-> Django bridges ---
+# NOTE: these packages are effectively unmaintained and have not kept pace with
+# modern Django. The versions below are the latest published, but they are NOT
+# compatible with Django 6.x. If/when the backend is actually built out, pick a
+# supported data layer (e.g. plain pymongo/mongoengine, or Django's own ORM on a
+# SQL database) instead of relying on these bridges, and adjust the Django pin
+# accordingly.
+djongo==1.3.7
+django-mongoengine==0.5.6
+django-rest-framework-mongoengine==3.4.1
